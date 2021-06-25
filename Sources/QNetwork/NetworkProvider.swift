@@ -12,9 +12,9 @@ public typealias MultiTarget = Moya.MultiTarget
 
 // Enable debug in scheme debug
 #if DEBUG
-var loggingEnabled: Bool = true
+public var loggingEnabled: Bool = true
 #else
-var loggingEnabled: Bool = false
+public var loggingEnabled: Bool = false
 #endif
 
 protocol NetworkingType {

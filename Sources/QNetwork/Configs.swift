@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Configs {
-    struct Network {
+public struct Configs {
+    public struct Network {
         // set true for tests and generating screenshots with fastlane
         public static let useStaging = false
         #if DEBUG
