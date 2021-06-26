@@ -190,3 +190,13 @@ private func newProvider(_ plugins: [PluginType], xAccessToken: String? = nil) -
                           plugins: plugins)
 }
 
+
+// For json encode. Use in post request
+public var jsonEncoding: JSONEncoding {
+    return JSONEncoding.default
+}
+
+// For param encode. Use in get request
+public var parameterEncoding: ParameterEncoding {
+    return URLEncoding.default
+}
