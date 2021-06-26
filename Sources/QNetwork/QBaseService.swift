@@ -7,7 +7,7 @@
 
 import Foundation
 
-public class QBaseService {
+open class QBaseService {
     public var provider: NetworkProvider!
 
     public init(isTest: Bool = false) {
